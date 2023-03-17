@@ -9,6 +9,15 @@ public class LogicOperations {
         boolean е = 4 >= 4;
 
 
-        System.out.println();
+        boolean a = true;
+        boolean s = false;
+
+        if (a && s) {
+            System.out.println("Правда");
+        } else {
+            System.out.println("Ложь");
+        }
+
+        //System.out.println();
     }
 }
