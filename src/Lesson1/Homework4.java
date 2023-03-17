@@ -13,7 +13,7 @@ public class Homework4 {
         System.out.println("Введите радиус цилиндра ");
         double r = scanner.nextDouble();
 
-        double v = PI*Math.pow(r, 2)*h;
+        double v = PI * Math.pow(r, 2) * h;
         System.out.println("Объем цилиндра = " + v);
     }
 }
