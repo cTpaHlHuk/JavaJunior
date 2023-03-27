@@ -8,7 +8,7 @@ public class Main2 {
         int [] c = new int[a.length + b.length];
         int count = 0;
 
-        //j,]tlbybnm d 1
+        //объединить в 1
 
         for (int i = 0; i < a.length; i++) {
             c[i] = a[i];
