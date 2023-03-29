@@ -57,8 +57,9 @@ public class Main3 {
         for (int i = 0; i < b.length/2; i++) {
             b[i] = b.length;
             int temp = b[i];
-//            b[i] = ;
+            b[i] = b[b.length - i - 1];
+            b[i] = temp;
         }
-
+        System.out.println(b[b.length - 1]);
     }
 }
