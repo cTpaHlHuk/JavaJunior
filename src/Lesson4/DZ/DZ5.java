@@ -9,7 +9,7 @@ public class DZ5 {
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                if (i == arr.length / 2 - j || i == arr.length / 2 + j || j == arr.length / 2 - i || j == arr.length / 2 + i) {
+                if (j - arr.length+1 == arr.length / 2 - i || i == arr.length / 2 + j || j == arr.length / 2 - i || j == arr.length / 2 + i) {
                     System.out.print("* ");
                 } else {
                     System.out.print("- ");
