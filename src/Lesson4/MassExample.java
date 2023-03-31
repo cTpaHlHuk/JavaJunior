@@ -17,27 +17,27 @@ public class MassExample {
 //        }
 
         int[][] q = new int[9][9];
-//        for (int i = 0; i < q.length; i++) {
-//            for (int j = 0; j < q[i].length; j++) {
-//                if (j < q[i].length - 1 - i) {
-//                    System.out.print(q[i][j] + " ");
-//                } else {
-//                    System.out.print("* ");
-//                }
-//            }
-//            System.out.println();
-//        }
-//        System.out.println();
-
         for (int i = 0; i < q.length; i++) {
             for (int j = 0; j < q[i].length; j++) {
-                if (i>=j) {
-                    System.out.print("* ");
-                } else {
+                if (j < q[i].length - 1 - i) {
                     System.out.print(q[i][j] + " ");
+                } else {
+                    System.out.print("* ");
                 }
             }
             System.out.println();
         }
+        System.out.println();
+
+//        for (int i = 0; i < q.length; i++) {
+//            for (int j = 0; j < q[i].length; j++) {
+//                if (i>=j) {
+//                    System.out.print("* ");
+//                } else {
+//                    System.out.print(q[i][j] + " ");
+//                }
+//            }
+//            System.out.println();
+//        }
     }
 }
